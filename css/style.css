@@ -5,8 +5,8 @@
 }
 
 header {
-    border-top: 1px solid #e1e1e2;
-    padding: 0.1rem 0.2rem;
+    border-top: 2px solid #e1e1e2;
+    padding: 0.2rem 0.4rem;
 }
 
 h1 {
@@ -18,4 +18,24 @@ main {
     margin: auto;
     background-color: white;
     background-color: #e1e1e2;
+}
+
+h3 {
+    display: inline;
+}
+
+.check {
+    color: #64c0a9;
+    border: 1px solid;
+    border-radius: 100%;
+}
+
+.cross {
+    color: #ea4237;
+    border: 1px solid;
+    border-radius: 100%;
+}
+
+.etichetta {
+    color: white;
 }
