@@ -5,7 +5,6 @@
 }
 
 header {
-    border-top: 1px solid #e1e1e2;
     padding: 1% 2%;
     background-color: white;
 }
@@ -20,20 +19,30 @@ h1 {
 }
 
 body {
-    background-color: #e1e1e2;
+    background-color: #f6f8f9;
 }
 
-.buttons {
-    margin: 0.5px;
-    border-bottom: solid #e1e1e2;
+.buttons {  
+    width: 70%;
+    margin: 1px auto;
+    margin-top: 50px;
+    background-color: white;
+    height: 1em;
+    border-radius: 0.5em;
+    padding: 1.5%;
 }
 
 main {
     width: 70%;
     margin: auto;
     background-color: white;
-    height: 50em;
+    height: 35em;
     border-radius: 0.5em;
+    line-height: 150%;
+    padding: 1.5%;
+    padding-bottom: 0px;
+    font-size: 20px;
+    color: #444851;
 }
 
 h3 {
@@ -47,21 +56,77 @@ h3 {
 .check {
     color: #64c0a9;
     border: 1px solid;
-    border-radius: 1.2em;
+    border-radius: 100%;
+    padding:0px 3px;
+    font-size: 15px;
 }
 
 .cross {
     color: #ea4237;
     border: 1px solid;
     border-radius: 100%;
+    padding:0px 3px;
+    font-size: 15px;
 }
 
 .etichetta {
     color: white;
     font-weight: 100;
     border: 1px;
-    background-color:brown ;
     border-radius: 2em;
-    padding: 1em;
+    padding: 5px;
     font-size: 0.5em;
 }
+
+span {
+    line-height: 250%;
+}
+
+.listSection {
+    width 00%;
+}
+
+#addtask {
+    background-color: #45abea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 5px 10px;
+    height: 30px;
+}
+
+#addsection {
+    color: #eaeaec;
+    border: 1px solid ;
+    border-radius: 5px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    height: 30px;
+    background-color: white;
+}
+
+.editorial {
+    background-color: #45abea;
+}
+
+.q1goals {
+    background-color: #9c72e4;
+}
+
+.recruiting {
+    background-color: #64c0a9;
+}
+
+.mobile {
+    background-color: #f29e33;
+}
+
+.website {
+    background-color: #d863a1;
+}
+
+.sales {
+    background-color: #b0c926;
+}
+
